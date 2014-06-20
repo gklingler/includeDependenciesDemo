@@ -1,0 +1,13 @@
+digraph "source tree" {
+    overlap=scale;
+    size="8,10";
+    ratio="fill";
+    fontsize="16";
+    fontname="Helvetica";
+	clusterrank="local";
+	"b.h" -> "c.h"
+	"c.h" -> "d.h"
+	"a.h" -> "b.h"
+	"main.cpp" -> "iostream"
+	"main.cpp" -> "a.h"
+}
